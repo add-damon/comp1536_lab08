@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>COMP1536 LAB08</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+  </head>
+  <body>
+
+    <header>
+      <nav id="headerNav">
+        <ul>
+          <li><a href="#">LOGO</a></li>
+          <li><a class="navs active" href="#">Home</a></li>
+          <li><a class="navs" class="navs" href="#">Movies</a></li>
+          <li><a class="navs" href="#">Contact Us</a></li>
+          <li><a class="navs" href="#">About</a></li>
+          <li class="dropdown">
+            <img class="icons" src="../css/menu.png" alt="Menu Icon"/>
+            <div class="dropdown_content">
+              <a class="dropMenus" href="#">Home</a>
+              <a class="dropMenus" href="#">Movies</a>
+              <a class="dropMenus" href="#">Contact Us</a>
+              <a class="dropMenus" href="#">About</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main">
+      <div id="imgSlider">
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/creed_2.jpg" alt="creed 2"/>
+        <img class="movieImgs" src="../css/fantastic_beasts.jpg" alt="fantastic_beasts"/>
+        <img class="movieImgs" src="../css/robin_hood.jpg" alt="robin hood"/>
+        <img class="movieImgs" src="../css/widows.jpg" alt="widows"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/robin_hood.jpg" alt="robin hood"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/widows.jpg" alt="widows"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/widows.jpg" alt="widows"/>
+        <img class="movieImgs" src="../css/robin_hood.jpg" alt="robin hood"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+        <img class="movieImgs" src="../css/widows.jpg" alt="widows"/>
+        <img class="movieImgs" src="../css/clara.jpg" alt="clara"/>
+      </div>
+    </div>
+
+    <nav id="tagNav">
+      <ul>
+        <li><a id="getJSONList" href="">Now Playing(JSON)</a></li>
+        <li><a id="getHTMLList" href="#">All Movies(HTML)</a></li>
+        <li><a href="#">Coming Soon</a></li>
+      </ul>
+    </nav>
+    
+    <div id="movieContainer">
+      <!-- server content to go here -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/client.js"></script>
+    
+  </body>
+</html>
